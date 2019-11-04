@@ -44,3 +44,4 @@ $ rails server
 * **password** : password
 
 "自分のgitへclone"
+"sshでcloneしてみよう"
