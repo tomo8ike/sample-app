@@ -3,6 +3,23 @@
 
 /* 共通 */
 
+// .font_sample01 {
+  // font-family : MS UI GOTHIC, sans-seif;
+  // font-style  : italic;
+// }
+#top-main {
+  background-color: white;
+}
+
+#top-main-title {
+  font-style:italic;
+  font-weight: bold;
+}
+
+span{
+  color: #000;
+}
+
 body {
   padding-top: 60px;
 }
@@ -21,6 +38,14 @@ textarea {
 
 .center h1 {
   margin-bottom: 10px;
+}
+
+.label-form {
+  margin-top: 10px;
+}
+
+.btn-form {
+  margin-top: 15px;
 }
 
 /* タイポグラフィ */
@@ -42,7 +67,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: #FFF;
 }
 
 p {
@@ -52,20 +77,40 @@ p {
 
 /* ヘッダー */
 
+#header {
+  background-color: green;
+}
+
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
-  text-transform: uppercase;
+  color: #FFF;
+  // text-transform: uppercase;
+  font-style:italic;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
 }
 
 #logo:hover {
-  color: #fff;
+  // background-color: yellow;
+  color: #808080;
   text-decoration: none;
+}
+
+li .header-list {
+  color: #fff !important;
+  font-weight: bold;
+  // background-color: yellow;
+}
+
+li .header-list:hover {
+    color: #808080 !important;
+}
+
+#dropdown-title {
+  background-color: green;
 }
 
 /* デバッグウインドウ */
