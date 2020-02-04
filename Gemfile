@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '~> 5.1.6'
+gem 'rails_autolink'
 gem 'rails-i18n'
 gem 'bcrypt'
 gem 'faker'
@@ -12,6 +13,9 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks',   '~> 5'
 gem 'jbuilder',     '~> 2.5'
+gem 'active_decorator'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :development, :test do
   gem 'sqlite3'
